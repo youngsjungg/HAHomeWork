@@ -1,5 +1,5 @@
 plugins {
-    id("baseinapps.android.library")
+    id("hahomework.android.library")
     alias(libs.plugins.compose.compiler)
 }
 

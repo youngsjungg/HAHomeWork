@@ -1,8 +1,8 @@
 import com.android.build.gradle.internal.dsl.BaseAppModuleExtension
-import com.techapps.apps.configureKotlinAndroid
-import com.techapps.config.BuildTypeConfig
-import com.techapps.config.BuildTypeConfig.getBuildConfigFields
-import com.techapps.config.Configuration
+import com.hahomework.apps.configureKotlinAndroid
+import com.hahomework.config.BuildTypeConfig
+import com.hahomework.config.BuildTypeConfig.getBuildConfigFields
+import com.hahomework.config.Configuration
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

@@ -1,7 +1,7 @@
 plugins {
-    id("baseinapps.android.library")
-    id("baseinapps.android.hilt")
-    id("baseinapps.android.library.flavors")
+    id("hahomework.android.library")
+    id("hahomework.android.hilt")
+    id("hahomework.android.library.flavors")
     alias(libs.plugins.kotlin.android)}
 
 android {

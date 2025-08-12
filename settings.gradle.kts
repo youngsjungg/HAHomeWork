@@ -29,13 +29,12 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "baseinapp"
+rootProject.name = "HAHomeWork"
 include(":app")
 
 // core
 include(
     ":core:domain",
-    ":core:analytics",
     ":core:network",
     ":core:model",
     ":core:common",

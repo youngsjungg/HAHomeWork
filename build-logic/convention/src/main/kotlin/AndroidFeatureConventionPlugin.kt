@@ -1,6 +1,6 @@
 import com.android.build.gradle.LibraryExtension
-import com.techapps.apps.configureAndroidCompose
-import com.techapps.apps.configureKotlinAndroid
+import com.hahomework.apps.configureAndroidCompose
+import com.hahomework.apps.configureKotlinAndroid
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

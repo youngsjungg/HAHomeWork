@@ -1,5 +1,5 @@
 plugins {
-    id("baseinapps.android.feature")
+    id("hahomework.android.feature")
 }
 
 android {

@@ -1,6 +1,6 @@
 plugins {
-    id("baseinapps.android.library")
-    id("baseinapps.android.hilt")
+    id("hahomework.android.library")
+    id("hahomework.android.hilt")
     alias(libs.plugins.kotlin.android)
 }
 

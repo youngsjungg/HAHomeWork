@@ -2,7 +2,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.baseinapps.buildlogic"
+group = "com.hahomework.buildlogic"
 
 java {
     toolchain {
@@ -23,31 +23,31 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplicationCompose") {
-            id = "baseinapps.android.application.compose"
+            id = "hahomework.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplication") {
-            id = "baseinapps.android.application"
+            id = "hahomework.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = "baseinapps.android.library.compose"
+            id = "hahomework.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidLibrary") {
-            id = "baseinapps.android.library"
+            id = "hahomework.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("androidLibraryFlavors") {
-            id = "baseinapps.android.library.flavors"
+            id = "hahomework.android.library.flavors"
             implementationClass = "AndroidLibraryFlavorsConventionPlugin"
         }
         register("androidFeature") {
-            id = "baseinapps.android.feature"
+            id = "hahomework.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidHilt") {
-            id = "baseinapps.android.hilt"
+            id = "hahomework.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
     }

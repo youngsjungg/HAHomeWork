@@ -1,6 +1,6 @@
 import com.android.build.gradle.LibraryExtension
-import com.techapps.config.BuildTypeConfig
-import com.techapps.config.BuildTypeConfig.getBuildConfigFields
+import com.hahomework.config.BuildTypeConfig
+import com.hahomework.config.BuildTypeConfig.getBuildConfigFields
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

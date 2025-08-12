@@ -1,12 +1,12 @@
 plugins {
-    id("baseinapps.android.application")
-    id("baseinapps.android.hilt")
+    id("hahomework.android.application")
+    id("hahomework.android.hilt")
     alias(libs.plugins.kotlin.parcelize)
     alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "com.baseinapp"
+    namespace = "com.HAHomeWork"
     hilt {
         enableAggregatingTask = true
     }
