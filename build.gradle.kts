@@ -10,6 +10,5 @@ plugins {
     alias(libs.plugins.kotlix.serialization) apply false
     alias(libs.plugins.compose.compiler) apply false
     alias(libs.plugins.jetbrains.kotlin.jvm) apply false
-    alias(libs.plugins.apollo.runtime) apply false
     alias(libs.plugins.protobuf) apply false
 }

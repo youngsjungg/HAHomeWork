@@ -48,8 +48,6 @@ dependencies {
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
 
-    implementation(libs.apollo)
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.ui.test.junit4)
     androidTestImplementation(libs.androidx.junit)

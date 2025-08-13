@@ -1,4 +1,4 @@
-package com.hahomework.data
+package com.hahomework.network
 
 import org.junit.Test
 

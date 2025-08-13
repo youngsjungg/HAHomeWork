@@ -1,4 +1,4 @@
-package com.baseinapp.main
+package com.hahomework.main
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

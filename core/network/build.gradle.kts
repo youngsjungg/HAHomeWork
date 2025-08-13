@@ -26,8 +26,6 @@ dependencies {
     implementation(platform(libs.okhttp.bom))
     implementation(libs.bundles.retrofitBundle)
     implementation(libs.retrofit.converter)
-    implementation(libs.apollo)
-    implementation(libs.apollo.coroutine)
 
     // json parsing
     implementation(libs.kotlinx.serialization.json)

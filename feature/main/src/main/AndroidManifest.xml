@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name="com.baseinapp.main.MainActivity"
+            android:name="com.hahomework.main.MainActivity"
             android:exported="true"
             android:configChanges="uiMode">
             <intent-filter>

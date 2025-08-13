@@ -1,4 +1,4 @@
-package com.hahomework.data
+package com.hahomework.network
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

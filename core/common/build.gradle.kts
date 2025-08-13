@@ -1,7 +1,6 @@
 plugins {
     id("hahomework.android.library")
     id("hahomework.android.hilt")
-    id("hahomework.android.library.flavors")
     alias(libs.plugins.kotlin.android)}
 
 android {
@@ -23,7 +22,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(libs.apollo)
 
     //etc
     implementation(libs.timber)

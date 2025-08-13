@@ -1,4 +1,4 @@
-package com.baseinapp.main
+package com.hahomework.main
 
 import org.junit.Test
 

@@ -38,10 +38,6 @@ gradlePlugin {
             id = "hahomework.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
-        register("androidLibraryFlavors") {
-            id = "hahomework.android.library.flavors"
-            implementationClass = "AndroidLibraryFlavorsConventionPlugin"
-        }
         register("androidFeature") {
             id = "hahomework.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
