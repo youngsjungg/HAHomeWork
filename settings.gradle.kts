@@ -1,5 +1,14 @@
 import org.gradle.api.Project
 
+include(":feature:home")
+
+
+include(":core:navigation")
+
+
+include(":feature:like:")
+
+
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
     includeBuild("build-logic")

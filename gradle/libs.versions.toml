@@ -8,6 +8,8 @@ androidxComposeBom = "2024.04.01"
 androidxHiltNavigationCompose = "1.2.0"
 androidxNavigation = "2.8.5"
 androidxDataStore = "1.1.4"
+androidx-paging = "3.2.1"
+androidx-paging-compose = "3.3.0-alpha02"
 protoBuf = "3.24.1"
 kotlin = "2.1.0"
 kotlinxCoroutines = "1.10.1"
@@ -24,6 +26,7 @@ protobufPlugin = "0.9.4"
 gson = "2.12.1"
 
 
+
 junit = "4.13.2"
 junitVersion = "1.1.5"
 appcompat = "1.6.1"
@@ -35,6 +38,8 @@ jetbrainsKotlinJvm = "2.1.0"
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycleRuntimeKtx" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycleRuntimeKtx" }
+androidx-lifecycle-viewModel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycleRuntimeKtx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 androidx-ui = { group = "androidx.compose.ui", name = "ui" }
@@ -45,12 +50,16 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+androidx-paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "androidx-paging" }
+androidx-paging-common = { group = "androidx.paging", name = "paging-common", version.ref = "androidx-paging" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "androidx-paging-compose" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
 androidx-navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "androidxNavigation" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
 kotlinx-coroutines-guava = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-guava", version.ref = "kotlinxCoroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
+
 
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
@@ -76,7 +85,14 @@ androidx-proto-dataStore-core = { group = "androidx.datastore", name = "datastor
 protobuf-protoc = { group = "com.google.protobuf", name = "protoc", version.ref = "protoBuf" }
 google-protobuf = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "protoBuf" }
 
-landscapist-glide = { group = "com.github.skydoves", name = "landscapist-glide", version.ref = "landscapist" }
+landscapist-bom = { group = "com.github.skydoves", name = "landscapist-bom", version.ref = "landscapist" }
+landscapist-coil = { group = "com.github.skydoves", name = "landscapist-coil" }
+landscapist-glide = { group = "com.github.skydoves", name = "landscapist-glide" }
+landscapist-placeholder = { group = "com.github.skydoves", name = "landscapist-placeholder" }
+landscapist-animation = { group = "com.github.skydoves", name = "landscapist-animation" }
+landscapist-transformation = { group = "com.github.skydoves", name = "landscapist-transformation" }
+
+
 
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
